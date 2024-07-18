@@ -434,7 +434,6 @@ footer .line-footer p a {
   }
 
   .sobre .img-sobre {
-    padding: 20%;
     margin-top: -40px;
   }
 
@@ -458,10 +457,6 @@ footer .line-footer p a {
     font-size: 10px;
   }
 
-  .img-cor img {
-    width: 100%;
-  }
-
   .especialidades .especialidades-box i {
     font-size: 40px;
   }
@@ -470,14 +465,8 @@ footer .line-footer p a {
     font-size: 25px;
   }
 
-  .contatocompra button {
-    font-size: 12px;
-    font-weight: 800;
-    margin-top: -200px;
-  }
-
   section.formulario {
-    margin-top: -120px;
+    margin-top: -100px;
   }
 
   footer .logo-footer {
