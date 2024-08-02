@@ -29,11 +29,14 @@ body {
   font-size: 18px;
   font-weight: 800;
   background-color: #dd6f44;
-  /* verde */
   border: 0;
   border-radius: 30px;
   cursor: pointer;
   transition: .2s;
+  color: #eae3db;
+  display: inline-flex;
+  align-items: center; 
+  justify-content: center;
 }
 
 button:hover,
@@ -134,6 +137,34 @@ section.topo-do-site .flex {
   /* verde */
   font-size: 40px;
 }
+
+.contato span {
+  color: #dd6f44;
+  /* verde */
+  font-size: 13px;
+}
+
+.whatsapp-button {
+  position: fixed;
+  right: 20px;   /* Distância da direita */
+  bottom: 20px;  /* Distância do fundo */
+  font-size: 30px; /* Tamanho do ícone */
+  color: white;  /* Cor do ícone */
+  background-color: #25D366; /* Cor de fundo do WhatsApp */
+  padding: 15px;
+  border-radius: 50%; /* Arredondar as bordas */
+  z-index: 1000; /* Garante que fique acima de outros elementos */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; /* Remove sublinhado do link */
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2); /* Sombra opcional */
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe5f; /* Muda a cor de fundo ao passar o mouse */
+}
+
 
 .topo-do-site .txt-topo-site p {
   color: #4A4A4A;
